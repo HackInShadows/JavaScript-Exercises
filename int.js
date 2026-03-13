@@ -1,22 +1,3 @@
-console.log("Hello, World!");
-let no = "Foram";
-let surname = "Upadhyay";
-console.log(no + " " + surname);
-console.error("This is an error message");
-console.info("This is an info message");
-console.log("This is a log message");
-alert("Enter value of a");
-let a=prompt("Enter here value of a");
-//a=Number.parseInt(a);
-let write=confirm("Do you want to write the value of a?");
-if(write){
-    location.href="https://www.codewithharry.com";
-}
-else{
-    console.error("You are not a special");
-}
-let color=prompt("Enter the color ");
-document.body.style.backgroundColor=color;
 // 1. Array of possible choices
 let choices = ["S", "W", "G"];
 
@@ -61,4 +42,5 @@ if (playAgain) {
 }
 console.log(window);
 console.log(document.body);
+
 document.body.style.border="5px dashed violet";
