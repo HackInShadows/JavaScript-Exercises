@@ -40,7 +40,7 @@ let playAgain = confirm("Do you want to play again?");
 if (playAgain) {
     location.reload(); // Reloads the page to restart the script
 }
-console.log(window);
+/*console.log(window);
 console.log(document.body);
 
-document.body.style.border="5px dashed violet";
+document.body.style.border="5px dashed violet";*/
